@@ -1,3 +1,43 @@
-@import url("screen.css");
-@import url("non-screen.css") handheld;
-@import url("non-screen.css") only screen and (max-device-width:640px);
+body {
+  background-color: black;
+}
+
+
+h1 {
+	margin: 0 0 0px;
+  padding: 20px;
+	font-family: 'Londrina Sketch', cursive;
+	font-size: 86px;
+	line-height: 90px;
+  font-weight: normal;
+  text-transform: none;      
+  color: white;
+ 
+}
+
+h2 {
+	font-family: 'Londrina Sketch', cursive;
+	font-size: 40px;
+	line-height: 60px;
+  font-weight: normal;
+  color: white;
+}
+
+p {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	color: #aaa;
+}
+
+.left {
+	float: left;
+	margin-left: 15px;
+	width: 320px;
+}
+
+.right {
+	float: right;
+	margin-right: 15px;
+	width: 320px;
+}
